@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Configurar adaptador para spinner de años
         List<String> listaAnios = new ArrayList<>();
-        for (int i = 1900; i <= 2025; i++) {
+        for (int i = 2025; i >= 1930; i--) {
             listaAnios.add(String.valueOf(i));
         }
         ArrayAdapter<String> adapterAnios = new ArrayAdapter<>(
